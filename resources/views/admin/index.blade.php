@@ -7,15 +7,13 @@
     <title>AdminLTE 3 | Dashboard</title>
 
     <!-- Google Font: Source Sans Pro -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/fontawesome-free/css/all.min.css') }}">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Tempusdominus Bootstrap 4 -->
-    <link rel="stylesheet"
-        href="{{ asset('AdminLTE/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
     <!-- iCheck -->
     <link rel="stylesheet" href="{{ asset('AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
     <!-- JQVMap -->
@@ -35,8 +33,7 @@
 
         <!-- Preloader -->
         <div class="preloader flex-column justify-content-center align-items-center">
-            <img class="animation__shake" src="{{ asset('AdminLTE/dist/img/AdminLTELogo.png') }}" alt="AdminLTELogo"
-                height="60" width="60">
+            <img class="animation__shake" src="{{ asset('AdminLTE/dist/img/AdminLTELogo.png') }}" alt="AdminLTELogo" height="60" width="60">
         </div>
 
         <!-- Navbar -->
@@ -64,8 +61,7 @@
                     <div class="navbar-search-block">
                         <form class="form-inline">
                             <div class="input-group input-group-sm">
-                                <input class="form-control form-control-navbar" type="search" placeholder="Search"
-                                    aria-label="Search">
+                                <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
                                 <div class="input-group-append">
                                     <button class="btn btn-navbar" type="submit">
                                         <i class="fas fa-search"></i>
@@ -89,8 +85,7 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="{{ asset('AdminLTE/dist/img/user1-128x128.jpg') }}" alt="User Avatar"
-                                    class="img-size-50 mr-3 img-circle">
+                                <img src="{{ asset('AdminLTE/dist/img/user1-128x128.jpg') }}" alt="User Avatar" class="img-size-50 mr-3 img-circle">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Brad Diesel
@@ -106,8 +101,7 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="{{ asset('AdminLTE/dist/img/user8-128x128.jpg') }}" alt="User Avatar"
-                                    class="img-size-50 img-circle mr-3">
+                                <img src="{{ asset('AdminLTE/dist/img/user8-128x128.jpg') }}" alt="User Avatar" class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         John Pierce
@@ -123,13 +117,11 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="{{ asset('AdminLTE/dist/img/user3-128x128.jpg') }}" alt="User Avatar"
-                                    class="img-size-50 img-circle mr-3">
+                                <img src="{{ asset('AdminLTE/dist/img/user3-128x128.jpg') }}" alt="User Avatar" class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Nora Silvester
-                                        <span class="float-right text-sm text-warning"><i
-                                                class="fas fa-star"></i></span>
+                                        <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
                                     </h3>
                                     <p class="text-sm">The subject goes here</p>
                                     <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
@@ -174,8 +166,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-widget="control-sidebar" data-controlsidebar-slide="true" href="#"
-                        role="button">
+                    <a class="nav-link" data-widget="control-sidebar" data-controlsidebar-slide="true" href="#" role="button">
                         <i class="fas fa-th-large"></i>
                     </a>
                 </li>
@@ -187,8 +178,7 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="index3.html" class="brand-link">
-                <img src="{{ asset('AdminLTE/dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo"
-                    class="brand-image img-circle elevation-3" style="opacity: .8">
+                <img src="{{ asset('AdminLTE/dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">AdminLTE 3</span>
             </a>
 
@@ -197,8 +187,7 @@
                 <!-- Sidebar user panel (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="{{ asset('AdminLTE/dist/img/user2-160x160.jpg') }}" class="img-circle elevation-2"
-                            alt="User Image">
+                        <img src="{{ asset('AdminLTE/dist/img/user2-160x160.jpg') }}" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
                         <a href="#" class="d-block">Alexander Pierce</a>
@@ -208,8 +197,7 @@
                 <!-- SidebarSearch Form -->
                 <div class="form-inline">
                     <div class="input-group" data-widget="sidebar-search">
-                        <input class="form-control form-control-sidebar" type="search" placeholder="Search"
-                            aria-label="Search">
+                        <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
                         <div class="input-group-append">
                             <button class="btn btn-sidebar">
                                 <i class="fas fa-search fa-fw"></i>
@@ -220,8 +208,7 @@
 
                 <!-- Sidebar Menu -->
                 <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
-                        data-accordion="false">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                         <li class="nav-item menu-open">
@@ -898,8 +885,7 @@
                                 <div class="icon">
                                     <i class="ion ion-bag"></i>
                                 </div>
-                                <a href="#" class="small-box-footer">More info <i
-                                        class="fas fa-arrow-circle-right"></i></a>
+                                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
                         <!-- ./col -->
@@ -914,8 +900,7 @@
                                 <div class="icon">
                                     <i class="ion ion-stats-bars"></i>
                                 </div>
-                                <a href="#" class="small-box-footer">More info <i
-                                        class="fas fa-arrow-circle-right"></i></a>
+                                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
                         <!-- ./col -->
@@ -930,8 +915,7 @@
                                 <div class="icon">
                                     <i class="ion ion-person-add"></i>
                                 </div>
-                                <a href="#" class="small-box-footer">More info <i
-                                        class="fas fa-arrow-circle-right"></i></a>
+                                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
                         <!-- ./col -->
@@ -946,8 +930,7 @@
                                 <div class="icon">
                                     <i class="ion ion-pie-graph"></i>
                                 </div>
-                                <a href="#" class="small-box-footer">More info <i
-                                        class="fas fa-arrow-circle-right"></i></a>
+                                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                             </div>
                         </div>
                         <!-- ./col -->
@@ -967,8 +950,7 @@
                                     <div class="card-tools">
                                         <ul class="nav nav-pills ml-auto">
                                             <li class="nav-item">
-                                                <a class="nav-link active" href="#revenue-chart"
-                                                    data-toggle="tab">Area</a>
+                                                <a class="nav-link active" href="#revenue-chart" data-toggle="tab">Area</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="#sales-chart" data-toggle="tab">Donut</a>
@@ -979,15 +961,11 @@
                                 <div class="card-body">
                                     <div class="tab-content p-0">
                                         <!-- Morris chart - Sales -->
-                                        <div class="chart tab-pane active" id="revenue-chart"
-                                            style="position: relative; height: 300px;">
-                                            <canvas id="revenue-chart-canvas" height="300"
-                                                style="height: 300px;"></canvas>
+                                        <div class="chart tab-pane active" id="revenue-chart" style="position: relative; height: 300px;">
+                                            <canvas id="revenue-chart-canvas" height="300" style="height: 300px;"></canvas>
                                         </div>
-                                        <div class="chart tab-pane" id="sales-chart"
-                                            style="position: relative; height: 300px;">
-                                            <canvas id="sales-chart-canvas" height="300"
-                                                style="height: 300px;"></canvas>
+                                        <div class="chart tab-pane" id="sales-chart" style="position: relative; height: 300px;">
+                                            <canvas id="sales-chart-canvas" height="300" style="height: 300px;"></canvas>
                                         </div>
                                     </div>
                                 </div><!-- /.card-body -->
@@ -1004,8 +982,7 @@
                                         <button type="button" class="btn btn-tool" data-card-widget="collapse">
                                             <i class="fas fa-minus"></i>
                                         </button>
-                                        <button type="button" class="btn btn-tool" title="Contacts"
-                                            data-widget="chat-pane-toggle">
+                                        <button type="button" class="btn btn-tool" title="Contacts" data-widget="chat-pane-toggle">
                                             <i class="fas fa-comments"></i>
                                         </button>
                                         <button type="button" class="btn btn-tool" data-card-widget="remove">
@@ -1024,9 +1001,7 @@
                                                 <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
                                             </div>
                                             <!-- /.direct-chat-infos -->
-                                            <img class="direct-chat-img"
-                                                src="{{ asset('AdminLTE/dist/img/user1-128x128.jpg') }}"
-                                                alt="message user image">
+                                            <img class="direct-chat-img" src="{{ asset('AdminLTE/dist/img/user1-128x128.jpg') }}" alt="message user image">
                                             <!-- /.direct-chat-img -->
                                             <div class="direct-chat-text">
                                                 Is this template really for free? That's unbelievable!
@@ -1042,9 +1017,7 @@
                                                 <span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
                                             </div>
                                             <!-- /.direct-chat-infos -->
-                                            <img class="direct-chat-img"
-                                                src="{{ asset('AdminLTE/dist/img/user3-128x128.jpg') }}"
-                                                alt="message user image">
+                                            <img class="direct-chat-img" src="{{ asset('AdminLTE/dist/img/user3-128x128.jpg') }}" alt="message user image">
                                             <!-- /.direct-chat-img -->
                                             <div class="direct-chat-text">
                                                 You better believe it!
@@ -1060,9 +1033,7 @@
                                                 <span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
                                             </div>
                                             <!-- /.direct-chat-infos -->
-                                            <img class="direct-chat-img"
-                                                src="{{ asset('AdminLTE/dist/img/user1-128x128.jpg') }}"
-                                                alt="message user image">
+                                            <img class="direct-chat-img" src="{{ asset('AdminLTE/dist/img/user1-128x128.jpg') }}" alt="message user image">
                                             <!-- /.direct-chat-img -->
                                             <div class="direct-chat-text">
                                                 Working with AdminLTE on a great new app! Wanna join?
@@ -1078,9 +1049,7 @@
                                                 <span class="direct-chat-timestamp float-left">23 Jan 6:10 pm</span>
                                             </div>
                                             <!-- /.direct-chat-infos -->
-                                            <img class="direct-chat-img"
-                                                src="{{ asset('AdminLTE/dist/img/user3-128x128.jpg') }}"
-                                                alt="message user image">
+                                            <img class="direct-chat-img" src="{{ asset('AdminLTE/dist/img/user3-128x128.jpg') }}" alt="message user image">
                                             <!-- /.direct-chat-img -->
                                             <div class="direct-chat-text">
                                                 I would love to.
@@ -1097,15 +1066,12 @@
                                         <ul class="contacts-list">
                                             <li>
                                                 <a href="#">
-                                                    <img class="contacts-list-img"
-                                                        src="{{ asset('AdminLTE/dist/img/user1-128x128.jpg') }}"
-                                                        alt="User Avatar">
+                                                    <img class="contacts-list-img" src="{{ asset('AdminLTE/dist/img/user1-128x128.jpg') }}" alt="User Avatar">
 
                                                     <div class="contacts-list-info">
                                                         <span class="contacts-list-name">
                                                             Count Dracula
-                                                            <small
-                                                                class="contacts-list-date float-right">2/28/2015</small>
+                                                            <small class="contacts-list-date float-right">2/28/2015</small>
                                                         </span>
                                                         <span class="contacts-list-msg">How have you been? I
                                                             was...</span>
@@ -1116,15 +1082,12 @@
                                             <!-- End Contact Item -->
                                             <li>
                                                 <a href="#">
-                                                    <img class="contacts-list-img"
-                                                        src="{{ asset('AdminLTE/dist/img/user7-128x128.jpg') }}"
-                                                        alt="User Avatar">
+                                                    <img class="contacts-list-img" src="{{ asset('AdminLTE/dist/img/user7-128x128.jpg') }}" alt="User Avatar">
 
                                                     <div class="contacts-list-info">
                                                         <span class="contacts-list-name">
                                                             Sarah Doe
-                                                            <small
-                                                                class="contacts-list-date float-right">2/23/2015</small>
+                                                            <small class="contacts-list-date float-right">2/23/2015</small>
                                                         </span>
                                                         <span class="contacts-list-msg">I will be waiting for...</span>
                                                     </div>
@@ -1134,15 +1097,12 @@
                                             <!-- End Contact Item -->
                                             <li>
                                                 <a href="#">
-                                                    <img class="contacts-list-img"
-                                                        src="{{ asset('AdminLTE/dist/img/user3-128x128.jpg') }}"
-                                                        alt="User Avatar">
+                                                    <img class="contacts-list-img" src="{{ asset('AdminLTE/dist/img/user3-128x128.jpg') }}" alt="User Avatar">
 
                                                     <div class="contacts-list-info">
                                                         <span class="contacts-list-name">
                                                             Nadia Jolie
-                                                            <small
-                                                                class="contacts-list-date float-right">2/20/2015</small>
+                                                            <small class="contacts-list-date float-right">2/20/2015</small>
                                                         </span>
                                                         <span class="contacts-list-msg">I'll call you back at...</span>
                                                     </div>
@@ -1152,15 +1112,12 @@
                                             <!-- End Contact Item -->
                                             <li>
                                                 <a href="#">
-                                                    <img class="contacts-list-img"
-                                                        src="{{ asset('AdminLTE/dist/img/user5-128x128.jpg') }}"
-                                                        alt="User Avatar">
+                                                    <img class="contacts-list-img" src="{{ asset('AdminLTE/dist/img/user5-128x128.jpg') }}" alt="User Avatar">
 
                                                     <div class="contacts-list-info">
                                                         <span class="contacts-list-name">
                                                             Nora S. Vans
-                                                            <small
-                                                                class="contacts-list-date float-right">2/10/2015</small>
+                                                            <small class="contacts-list-date float-right">2/10/2015</small>
                                                         </span>
                                                         <span class="contacts-list-msg">Where is your new...</span>
                                                     </div>
@@ -1170,15 +1127,12 @@
                                             <!-- End Contact Item -->
                                             <li>
                                                 <a href="#">
-                                                    <img class="contacts-list-img"
-                                                        src="{{ asset('AdminLTE/dist/img/user6-128x128.jpg') }}"
-                                                        alt="User Avatar">
+                                                    <img class="contacts-list-img" src="{{ asset('AdminLTE/dist/img/user6-128x128.jpg') }}" alt="User Avatar">
 
                                                     <div class="contacts-list-info">
                                                         <span class="contacts-list-name">
                                                             John K.
-                                                            <small
-                                                                class="contacts-list-date float-right">1/27/2015</small>
+                                                            <small class="contacts-list-date float-right">1/27/2015</small>
                                                         </span>
                                                         <span class="contacts-list-msg">Can I take a look at...</span>
                                                     </div>
@@ -1188,15 +1142,12 @@
                                             <!-- End Contact Item -->
                                             <li>
                                                 <a href="#">
-                                                    <img class="contacts-list-img"
-                                                        src="{{ asset('AdminLTE/dist/img/user8-128x128.jpg') }}"
-                                                        alt="User Avatar">
+                                                    <img class="contacts-list-img" src="{{ asset('AdminLTE/dist/img/user8-128x128.jpg') }}" alt="User Avatar">
 
                                                     <div class="contacts-list-info">
                                                         <span class="contacts-list-name">
                                                             Kenneth M.
-                                                            <small
-                                                                class="contacts-list-date float-right">1/4/2015</small>
+                                                            <small class="contacts-list-date float-right">1/4/2015</small>
                                                         </span>
                                                         <span class="contacts-list-msg">Never mind I found...</span>
                                                     </div>
@@ -1213,8 +1164,7 @@
                                 <div class="card-footer">
                                     <form action="#" method="post">
                                         <div class="input-group">
-                                            <input type="text" name="message" placeholder="Type Message ..."
-                                                class="form-control">
+                                            <input type="text" name="message" placeholder="Type Message ..." class="form-control">
                                             <span class="input-group-append">
                                                 <button type="button" class="btn btn-primary">Send</button>
                                             </span>
@@ -1356,8 +1306,7 @@
                                 </div>
                                 <!-- /.card-body -->
                                 <div class="card-footer clearfix">
-                                    <button type="button" class="btn btn-primary float-right"><i
-                                            class="fas fa-plus"></i> Add item</button>
+                                    <button type="button" class="btn btn-primary float-right"><i class="fas fa-plus"></i> Add item</button>
                                 </div>
                             </div>
                             <!-- /.card -->
@@ -1375,12 +1324,10 @@
                                     </h3>
                                     <!-- card tools -->
                                     <div class="card-tools">
-                                        <button type="button" class="btn btn-primary btn-sm daterange"
-                                            title="Date range">
+                                        <button type="button" class="btn btn-primary btn-sm daterange" title="Date range">
                                             <i class="far fa-calendar-alt"></i>
                                         </button>
-                                        <button type="button" class="btn btn-primary btn-sm" data-card-widget="collapse"
-                                            title="Collapse">
+                                        <button type="button" class="btn btn-primary btn-sm" data-card-widget="collapse" title="Collapse">
                                             <i class="fas fa-minus"></i>
                                         </button>
                                     </div>
@@ -1431,29 +1378,25 @@
                                     </div>
                                 </div>
                                 <div class="card-body">
-                                    <canvas class="chart" id="line-chart"
-                                        style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+                                    <canvas class="chart" id="line-chart" style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
                                 </div>
                                 <!-- /.card-body -->
                                 <div class="card-footer bg-transparent">
                                     <div class="row">
                                         <div class="col-4 text-center">
-                                            <input type="text" class="knob" data-readonly="true" value="20"
-                                                data-width="60" data-height="60" data-fgColor="#39CCCC">
+                                            <input type="text" class="knob" data-readonly="true" value="20" data-width="60" data-height="60" data-fgColor="#39CCCC">
 
                                             <div class="text-white">Mail-Orders</div>
                                         </div>
                                         <!-- ./col -->
                                         <div class="col-4 text-center">
-                                            <input type="text" class="knob" data-readonly="true" value="50"
-                                                data-width="60" data-height="60" data-fgColor="#39CCCC">
+                                            <input type="text" class="knob" data-readonly="true" value="50" data-width="60" data-height="60" data-fgColor="#39CCCC">
 
                                             <div class="text-white">Online</div>
                                         </div>
                                         <!-- ./col -->
                                         <div class="col-4 text-center">
-                                            <input type="text" class="knob" data-readonly="true" value="30"
-                                                data-width="60" data-height="60" data-fgColor="#39CCCC">
+                                            <input type="text" class="knob" data-readonly="true" value="30" data-width="60" data-height="60" data-fgColor="#39CCCC">
 
                                             <div class="text-white">In-Store</div>
                                         </div>
@@ -1477,8 +1420,7 @@
                                     <div class="card-tools">
                                         <!-- button with a dropdown -->
                                         <div class="btn-group">
-                                            <button type="button" class="btn btn-success btn-sm dropdown-toggle"
-                                                data-toggle="dropdown" data-offset="-52">
+                                            <button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown" data-offset="-52">
                                                 <i class="fas fa-bars"></i>
                                             </button>
                                             <div class="dropdown-menu" role="menu">
@@ -1488,8 +1430,7 @@
                                                 <a href="#" class="dropdown-item">View calendar</a>
                                             </div>
                                         </div>
-                                        <button type="button" class="btn btn-success btn-sm"
-                                            data-card-widget="collapse">
+                                        <button type="button" class="btn btn-success btn-sm" data-card-widget="collapse">
                                             <i class="fas fa-minus"></i>
                                         </button>
                                         <button type="button" class="btn btn-success btn-sm" data-card-widget="remove">
@@ -1537,7 +1478,7 @@
     <script src="{{ asset('AdminLTE/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>
-    $.widget.bridge('uibutton', $.ui.button)
+        $.widget.bridge('uibutton', $.ui.button)
     </script>
     <!-- Bootstrap 4 -->
     <script src="{{ asset('AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
