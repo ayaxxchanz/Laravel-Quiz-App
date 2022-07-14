@@ -8,4 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 class Quiz extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'name',
+        'description',
+        'minutes',
+    ];
+
+    public function question()
+    {
+        return $this->hasMany(Question::class);
+    }
 }
